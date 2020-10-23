@@ -1,0 +1,73 @@
+[{
+        "product_id": 10000151,
+        "name": "Redmi K20 Pro ",
+        "desc": "骁龙855处理器, 弹出式极界全面屏",
+        "image": "../upload/sm/097f0cf50bebae139744def8bc62d6df.jpg",
+        "price": 2100,
+        "del": 2300
+    },
+    {
+        "product_id": 10000150,
+        "name": "Redmi K20",
+        "desc": "弹出全面屏，4800万三摄",
+        "image": "../upload/sm/6de54004880564306b8730fc92c64dae.jpg",
+        "price": 2400,
+        "del": 2500
+    },
+    {
+        "product_id": 10000152,
+        "name": "Redmi 7A",
+        "desc": "骁龙8核处理器",
+        "image": "../upload/sm/8f2ab52a8c96e5b9ae692576763d641c.jpg",
+        "price": 589,
+        "del": 586
+    },
+    {
+        "product_id": 10000134,
+        "name": "小米9",
+        "desc": "全息幻彩机身，骁龙855 ",
+        "image": "../upload/sm/271093cb5862f9b0073b0bf813e04f52.JPG",
+        "price": 869,
+        "del": 2500
+    },
+    {
+        "product_id": 9455,
+        "name": "Redmi Note 7 Pro",
+        "desc": "索尼4800万超清拍照",
+        "image": "../upload/sm/3c2b5f75d6ee4ebb3cb79e8b6b094a5f.JPG",
+        "price": 1399,
+        "del": 1599
+    },
+    {
+        "product_id": 10000131,
+        "name": "Redmi Note 7",
+        "desc": "4800万拍照 长续航 ",
+        "image": "../upload/sm/8cb25a30b89e1db8476414a95d27816d.JPG",
+        "price": 1099,
+        "del": 1399
+    },
+    {
+        "product_id": 10000138,
+        "name": "Redmi 7 ",
+        "desc": "4000mAh超长续航",
+        "image": "../upload/sm/f422d4f9a7ca334cd00bcbea2e48cbc2.JPG",
+        "price": 699,
+        "del": 799
+    },
+    {
+        "product_id": 10000135,
+        "name": "小米9 SE",
+        "desc": "索尼4800万三摄，骁龙712",
+        "image": "../upload/sm/d02a52c64ecf13f1a3137e062628f20e.JPG",
+        "price": 1599,
+        "del": 1999
+    },
+    {
+        "product_id": 10000139,
+        "name": "黑鲨游戏手机 2",
+        "desc": "骁龙855，立体触控",
+        "image": "../upload/sm/7fc0687b6a790ce3689eb6a47ef71110.JPG",
+        "price": 2699,
+        "del": 3499
+    }
+]

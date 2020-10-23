@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>小米商城 - Redmi Note 8、小米CC9、小米MIX 3，小米电视官方网站</title>
+    <meta name="description" content="小米商城直营小米公司旗下所有产品，包括小米手机系列小米CC9、小米9、小米MIX 3，Redmi 红米系列Redmi K20 Pro、Redmi Note 8，小米电视、红米电视、笔记本、米家智能家居等，同时提供小米客户服务及售后支持。" />
+    <meta name="keywords" content="小米,小米9,小米cc9,Redmi K20,Redmi Note 8,小米MIX3,小米商城" />
+    <link rel="shortcut icon" href="//s01.mifile.cn/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/base1.css" />
+    <link rel="stylesheet" href="css/cart.css" />
+    <script src="js/require.js" defer async="true" data-main="js/cart.js"></script>
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <!-- 顶部标题 -->
+    <div class="site-header site-mini-header">
+        <div class="container">
+            <div class="header-logo">
+                <a class="logo ir" href="index1.html" title="小米官网">小米官网</a>
+            </div>
+            <div class="header-title has-more" id="J_miniHeaderTitle">
+                <h2>我的购物车</h2>
+                <p>温馨提示：产品是否购买成功，以最终下单为准哦，请尽快结算</p>
+            </div>
+            <div class="topbar-info" id="J_userInfo">
+                <a class="link" href="javascript:void(0);" data-agreement="true" data-login="true" data-stat-id="40879d467387e3e0" onclick="_msq.push(['trackEvent', '5df97b551662ffe7-40879d467387e3e0', '//order.mi.com/site/login', 'pcpid', '']);" data-href="//order.mi.com/site/login?redirectUrl=https://static.mi.com/cart/">登录</a>
+                <span class="sep">|</span><a class="link" href="javascript:void(0);" data-agreement="true" data-register="true" data-stat-id="b072cf7c6a856e34" onclick="_msq.push(['trackEvent', '5df97b551662ffe7-b072cf7c6a856e34', 'https://account.xiaomi.com/pass/register', 'pcpid', '']);"
+                    data-href="register.html">注册</a> </div>
+        </div>
+    </div>
+    <!-- 购物车列表 -->
+    <div class="page-main">
+        <div class="container">
+            <div class="cart-empty cart-empty-nologin hide" id="J_cartEmpty">
+                <h2>您的购物车还是空的！</h2>
+                <p class="login-desc">登录后将显示您之前加入的商品</p>
+                <a href="#" class="btn btn-primary btn-login" id="J_loginBtn" data-href="//order.mi.com/site/login?redirectUrl=https://static.mi.com/cart/" data-stat-id="2708415ff4adafd3" onclick="_msq.push(['trackEvent', '5df97b551662ffe7-2708415ff4adafd3', 'javascript:void0', 'pcpid', '']);">立即登录</a>
+                <a href="#" class="btn btn-primary btn-shoping J_goShoping" data-stat-id="498eb13e3ab3f287" onclick="_msq.push(['trackEvent', '5df97b551662ffe7-498eb13e3ab3f287', '//list.mi.com/0', 'pcpid', '']);">马上去购物</a>
+            </div>
+            <div id="J_cartBox">
+                <div class="cart-goods-list">
+                    <!-- 列表头 -->
+                    <div class="list-head clearfix">
+                        <div class="col col-check"><i class="iconfont icon-checkbox icon-checkbox-selected" id="J_selectAll">√</i>全选</div>
+                        <div class="col col-img">&nbsp;</div>
+                        <div class="col col-name">商品名称</div>
+                        <div class="col col-price">单价</div>
+                        <div class="col col-num">数量</div>
+                        <div class="col col-total">小计</div>
+                        <div class="col col-action">操作</div>
+                    </div>
+                    <!-- 列表 -->
+                    <div class="list-body" id="J_cartListBody">
+                        <div class="item-box">
+                            <div class="item-table J_cartGoods" data-info="{ commodity_id:'1192300048', gettype:'buy', itemid:'2192300031_0_buy', num:'1'} ">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cart-bar clearfix" id="J_cartBar">
+                    <div class="section-left">
+                        <a href="#" class="back-shopping J_goShoping" data-stat-id="b16361b4c5491b6d" onclick="_msq.push(['trackEvent', '5df97b551662ffe7-b16361b4c5491b6d', '#', 'pcpid', '']);">继续购物</a>
+                        <span class="cart-total">共 <i id="J_cartTotalNum">4</i> 件商品，已选择 <i id="J_selTotalNum">4</i> 件</span>
+                        <span class="cart-coudan hide" id="J_coudanTip">
+                                            ，还需 <i id="J_postFreeBalance">0.00</i> 元即可免邮费  <a href="javascript:void(0);" id="J_showCoudan" data-stat-id="cfc8337d6cbfdef7" onclick="_msq.push(['trackEvent', '5df97b551662ffe7-cfc8337d6cbfdef7', 'javascript:void0', 'pcpid', '']);">立即凑单</a>
+                                        </span>
+                    </div>
+                    <span class="activity-money hide">
+                                        活动优惠：减 <i id="J_cartActivityMoney">0</i> 元
+                                    </span>
+                    <span class="total-price">
+                                        合计：<em id="J_cartTotalPrice">1896.9</em>元
+                                    </span>
+                    <a href="javascript:void(0);" class="btn btn-a btn btn-primary" id="J_goCheckout" data-stat-id="9bd56b7232f4ef1a" onclick="_msq.push(['trackEvent', '5df97b551662ffe7-9bd56b7232f4ef1a', 'javascript:void0', 'pcpid', '']);">去结算</a>
+
+                    <div class="no-select-tip hide" id="J_noSelectTip">
+                        请勾选需要结算的商品
+                        <i class="arrow arrow-a"></i>
+                        <i class="arrow arrow-b"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="cart-recommend container" id="J_miRecommendBox">
+                <h2 class="xm-recommend-title">
+                    <span>买购物车中商品的人还买了</span>
+                </h2>
+                <div class="xm-recommend">
+                    <ul class="row clearfix">
+
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- 购物车后续商品列表 -->
+
+    <tool-bar :bar-data="toolBarData"></tool-bar>
+
+    <div ref="J_siteFooter">
+        <div class="site-footer">
+            <div class="container">
+                <div class="footer-service">
+                    <ul class="list-service clearfix">
+                        <li><a href="#"><em class="iconfont-tool"></em><img src="img/icon01_03.png" alt="">预约维修服务</a></li>
+                        <li><a href="#"><em class="iconfont-circle-7"></em><img src="img/icon01_05.png" alt="">7天无理由退货</a></li>
+                        <li><a href="#"><em class="iconfont-circle-15"></em><img src="img/icon01_07.png" alt="">15天免费换货</a></li>
+                        <li><a href="#"><em class="iconfont-gift"></em><img src="img/icon01_09.png" alt="">满150元包邮</a></li>
+                        <li><a href="#"><em class="iconfont-location"></em><img src="img/icon01_11.png" alt="">520余家售后网点</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links clearfix">
+                    <dl class="col-links col-links-first">
+                        <dt>帮助中心</dt>
+                        <dd><a href="#">账户管理</a></dd>
+                        <dd><a href="#">购物指南</a></dd>
+                        <dd><a href="#">订单操作</a></dd>
+                    </dl>
+
+                    <dl class="col-links ">
+                        <dt>服务支持</dt>
+                        <dd><a href="#">售后政策</a></dd>
+                        <dd><a href="#">自助服务</a></dd>
+                        <dd><a href="#">相关下载</a></dd>
+                    </dl>
+
+                    <dl class="col-links ">
+                        <dt>线下门店</dt>
+                        <dd><a href="#">小米之家</a></dd>
+                        <dd><a href="#">服务网点</a></dd>
+                        <dd><a href="#">授权体验店</a></dd>
+                    </dl>
+
+                    <dl class="col-links ">
+                        <dt>关于小米</dt>
+                        <dd><a href="#">了解小米</a></dd>
+                        <dd><a href="#">加入小米</a></dd>
+                        <dd><a href="#">投资者关系</a></dd>
+                    </dl>
+
+                    <dl class="col-links ">
+                        <dt>关注我们</dt>
+                        <dd><a href="#">新浪微博</a></dd>
+                        <dd><a href="#">官方微信</a></dd>
+                        <dd><a href="#">联系我们</a></dd>
+                    </dl>
+
+                    <dl class="col-links ">
+                        <dt>特色服务</dt>
+                        <dd><a href="#">F 码通道</a></dd>
+                        <dd><a href="#">礼物码</a></dd>
+                        <dd><a href="#">防伪查询</a></dd>
+                    </dl>
+
+                    <div class="col-contact">
+                        <p class="phone">400-100-5678</p>
+                        <p>周一至周日 8:00-18:00<br>（仅收市话费）</p>
+                        <a href="#"><em class="iconfont-message2"></em> 人工客服</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+</body>
+
+
+
+</html>
